@@ -325,11 +325,7 @@ ul.footer-list li{
 
 /**************************** SLIDESHOW ********************************/
 
-  /* Fallback for hidden attribute */
-  hidden {
-    display: none;
-  }
-  
+
   .slider {
     position: relative;
     margin-top: 48px;
