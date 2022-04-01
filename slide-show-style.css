@@ -1,0 +1,80 @@
+
+/**************************** SLIDESHOW ********************************/
+
+  /* Fallback for hidden attribute */
+  hidden {
+    display: none;
+  }
+  
+  .slider {
+    position: relative;
+    margin-top: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+    width: 650px;
+    height: 180px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  }
+
+  /******** SLIDESHOW LIST *******/
+
+  .slider-list {
+    position: absolute;
+    left: 0;
+    width: 2600px;
+  }
+
+    /* SLIDESHOW AUTOPLAY FUNCTIONS */
+
+
+  .slider__slide {
+    float: left;
+  }
+  
+  .slider__switch + .slider > .slider-list {
+    -webkit-animation-name: autoplay;
+    animation-name: autoplay;
+    /* This will change the time it takes to move to next slide */
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
+  
+  @-webkit-keyframes 
+  autoplay {   /* position of the first slide */
+    0% {
+   left: 0;
+  }
+    /* position of the second slide */
+    25% {
+   left: -650px;
+  }
+    /* position of the third slide */
+    50% {
+   left: -1300px;
+  }
+    /* position of the fourth slide */
+    100% {
+   left: -1950px;
+  }
+  }
+  @keyframes 
+  autoplay {   /* position of the first slide */
+    0% {
+   left: 0;
+  }
+    /* position of the second slide */
+    25% {
+   left: -650px;
+  }
+    /* position of the third slide */
+    50% {
+   left: -1300px;
+  }
+    /* position of the fourth slide */
+    100% {
+   left: -1950px;
+  }
+  }

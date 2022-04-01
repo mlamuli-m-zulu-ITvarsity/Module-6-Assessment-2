@@ -1,0 +1,322 @@
+/*************************************** BODY ******************************************/
+
+body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #cedce3;
+}
+
+body a{
+    text-decoration: none;
+}
+
+/*************************************** HEADER ******************************************/
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(231, 231, 231); 
+}
+
+/******* LOGO ********/
+
+.logo img{
+    width: 250px;
+    height: 50px;
+    margin: 30px;
+}
+
+/******* MENU ********/
+
+#menu{
+    float: right;
+    height: 50px;
+    width: 60%;
+    margin-top: -116px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 100px;
+    color: rgb(15, 15, 15);
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #74a198;
+}
+
+#social-media{
+    float: right;
+    width: 150px;
+    margin-top: -116px;
+    margin-right: -50px;
+}
+
+/*************************************** MAIN-PAGE ******************************************/
+
+#main-page{
+    margin: 30px;
+}
+
+/******* H1 ********/
+
+h1{
+    color: rgb(57, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+/******* PARAGRAPH ********/
+
+#main-page p{
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/******* HEADINGS ********/
+
+#main-page h2{
+    text-align: center;
+    color: rgb(90, 85, 85);
+    padding-bottom: 0;
+}
+
+#main-page h3{
+    text-align: center;
+    color: rgb(19, 16, 16);
+    padding: 0;
+    text-decoration: overline;
+}
+
+/**** CARS LIST FOR CARS FOR SALE ****/
+
+#cars{
+    text-align: center;
+    margin: 0 150px 0 100px;
+}
+
+#cars a{
+    color: black;
+}
+
+#cars a :hover{
+    color: darkcyan;
+}
+
+#cars img{
+    width: 150px;
+}
+
+#cars p{
+    color: rgb(77, 76, 76);
+}
+
+ul.cars-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+    margin-left: 80px;
+}
+
+ul.cars-list li{
+    border-top: solid 1px #979797;
+    padding: 10px 0px;
+    line-height: 2px;
+}
+
+/**** CARS LIST FEATURED VEHICLES ****/
+
+ul.cars-list-1{
+    margin: 0;
+    margin-left: 500px;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+    width: 300px;
+}
+
+ul.cars-list-1 li{
+    border-top: solid 1px #979797;
+    padding: 10px 0px;
+    line-height: 2px;
+    text-align: center;
+}
+
+ul.cars-list-1 a{
+    color: rgb(39, 131, 252);
+}
+
+ul.cars-list-1 a:hover{
+    color: cadetblue;
+}
+
+
+/***************** CONTACT PAGE ****************/
+
+#contact ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: rgb(99, 94, 94);
+    text-align: center;
+}
+
+#contact form{
+    text-align: center;
+}
+
+.button{
+    display: block;
+    width: 120PX;
+    background-color: rgb(19, 182, 211);
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    padding: 12px 0;
+    height: auto;
+}
+
+.button:hover{
+    color: rgb(148, 148, 148);
+}
+
+/************* TABLE ****************/
+
+th{
+    font-weight: 800;
+    background-color: rgb(151, 190, 151);
+    color: azure;
+}
+
+tr{
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 232, 232);
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    width: 100%;
+    margin: 20PX 0 20PX 0;
+}
+
+/********** CARS IMAGES ************/
+
+#cars-im img{
+    width: 120px;
+    margin: 12px;
+    -moz-transition:  -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transform: -o-transform 0.5s ease-in;
+}
+
+#cars-im img:hover{
+	-moz-transform: scale(3);
+	-webkit-transform: scale(3);
+	-o-transform: scale(3);
+ }
+
+ #cars-im{
+     text-align: center;
+ }
+
+/*************************************** FOOTER ******************************************/
+
+footer{
+    background-color: rgb(223, 224, 224);
+    height: 260px;
+}
+
+footer a{
+    color: rgb(58, 58, 58);
+}
+
+footer a:hover{
+    color: darkcyan;
+}
+
+#ft1{
+    float: left;
+    width: 40%;
+    margin: 12px;
+}
+
+#ft2{
+    float: right;
+    margin: 12px;
+}
+
+/**** FOOTER-LIST ****/
+
+ul.footer-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.footer-list li{
+    border-top: solid 1px #979797;
+    padding: 10px 0px;
+    line-height: 2px;
+    width: 40%;
+}
+
+/********************************* COPYRIGHT **************************************/
+
+#copyright{
+    text-align: center;
+}
+
+/**************************** BACK TO THE TOP BUTTON *******************************/
+
+#backtop{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 100;
+    border: none;
+    outline: none;
+    background-color: rgb(81, 141, 141);
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#backtop:hover{
+    background-color: cornflowerblue;
+}
